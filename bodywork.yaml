@@ -15,7 +15,7 @@ stages:
     memory_request_mb: 100
     batch:
       max_completion_time_seconds: 600
-      retries: 2
+      retries: 1
   stage_2_scoring_service:
     executable_module_path: pipeline/serve_model.py
     requirements:
